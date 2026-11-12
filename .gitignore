@@ -1,0 +1,9 @@
+.tools/
+.venv/
+__pycache__/
+*.egg-info/
+bin/
+obj/
+config.local.json
+*.pub
+deployment.json

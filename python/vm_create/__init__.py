@@ -1,0 +1,1 @@
+"""Bicep-based VM creation."""

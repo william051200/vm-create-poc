@@ -1,0 +1,18 @@
+{
+  "subscriptionId": "00000000-0000-0000-0000-000000000000",
+  "resourceGroup": "rg-vm-create",
+  "deploymentName": "vm-create-demo",
+  "sshPublicKeyPath": "id_ed25519.pub",
+  "parameters": {
+    "vmName": "bicep-demo",
+    "location": "eastus",
+    "adminUsername": "azureuser",
+    "vmSize": "Standard_D2s_v5",
+    "osDiskSizeGb": 32,
+    "storageSku": "Premium_LRS",
+    "dataDiskSizesGb": [32, 64],
+    "publicIpEnabled": false,
+    "sshSourceCidr": "",
+    "existingSubnetId": ""
+  }
+}
